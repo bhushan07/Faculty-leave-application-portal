@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+body{
+	background: #aa9988;
+	background: url(books2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+}
+h1{
+	color: #FFFFFF;
+	font-size: 50px;
+}
+table{
+	padding: 20px;
+	width: 50%;
+	border: solid black 5px;
+	font-size: 20px;
+}
+
+th{
+	font-size: 25px;
+	color: #261a0d;
+	background: #bbaa99;
+}
+
+td{
+	background: #bbaa99;
+	text-align:center;
+	 
+}

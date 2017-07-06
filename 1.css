@@ -1,0 +1,69 @@
+@CHARSET "UTF-8";
+button {
+    background-color: #8B4513;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 350px;
+}
+
+/* Extra style for the cancel button (red) */
+
+
+/* Center the avatar image inside this container */
+body {
+	background: url(blackboard.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	color: #000000;
+	font: 14px Arial;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+
+
+/* Add padding to containers */
+.container {
+    padding: 100px;
+    margin: 0 auto;
+    width: 40%;
+    margin-top: 50px;
+    font-size:30px;
+    
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+}
+
+input{
+	
+	height: 30px;
+}
+
+select{
+	background-color: #fff;
+	height:30px;
+	width: 350px;
+}
+
+b{
+	
+	color: #8B4513;
+}
